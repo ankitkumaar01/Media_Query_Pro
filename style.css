@@ -1,0 +1,69 @@
+body{
+   height: 100vh;
+   background-color: aqua;
+  
+
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+.box{
+    display: none;
+}
+@media screen and (max-width: 5100px) {
+    .box1{
+        display: block;
+    }
+}
+@media screen and (max-width: 1440px) {
+    body{
+        background-color: brown;
+    }
+    .box2{
+        display: block;
+    }
+    .box1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-color: yellow;
+    }
+    .box3{
+        display: block;
+    }
+    .box2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: green;
+    }
+    .box4{
+        display: block;
+    }
+    .box3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body{
+        background-color: dodgerblue;
+    }
+    .box5{
+        display: block;
+    }
+    .box4{
+       display: none; 
+    }
+}
